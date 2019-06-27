@@ -31,7 +31,7 @@ public class Car extends Vehicle {
     }
 
     public String getName(){
-        return driver.getName();
+        return "The " + this.color + " " + this.brand + " is being driven by " + driver.getName();
     }
 
     public String getAge(){

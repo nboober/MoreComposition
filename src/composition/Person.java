@@ -19,7 +19,7 @@ abstract class Person {
     }
 
     public String getName(){
-        return "The driver's name is " + this.name + ".";
+        return this.name;
     }
 
     public void setAge(int age){
