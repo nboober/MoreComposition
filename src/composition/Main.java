@@ -46,9 +46,9 @@ public class Main {
         Car car3 = new Car();
         car3.setCar(speed, color, brand, name, age, setNumOfSpeedingTickets, setYearofLicensure);
 
-        System.out.println(mine.getName());
-        System.out.println(mine.getAge());
-        System.out.println(mine.getNumOfSpeedingTickets());
-        System.out.println(mine.getYearofLicensure());
+        System.out.println(car3.getName());
+        System.out.println(car3.getAge());
+        System.out.println(car3.getNumOfSpeedingTickets());
+        System.out.println(car3.getYearofLicensure());
     }
 }
